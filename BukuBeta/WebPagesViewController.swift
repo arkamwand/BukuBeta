@@ -26,6 +26,10 @@ class WebPagesViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.thebukuproject.com/tickets")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func ShopButtonPressed(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://shop.thebukuproject.com")! as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 

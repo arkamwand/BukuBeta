@@ -64,10 +64,10 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorder" translatesAutoresizingMaskIntoConstraints="NO" id="n5E-FG-sxR">
                                 <rect key="frame" x="-10" y="508" width="395" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWN-xk-7L7">
-                                <rect key="frame" x="22" y="126" width="330" height="167"/>
+                                <rect key="frame" x="22" y="126" width="337" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Tickets"/>
                                 <connections>
@@ -76,8 +76,16 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorderTop" translatesAutoresizingMaskIntoConstraints="NO" id="u1N-GB-RMU">
                                 <rect key="frame" x="-10" y="-7" width="395.00000000000006" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-4U-1vK">
+                                <rect key="frame" x="16" y="326" width="342" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Shop"/>
+                                <connections>
+                                    <action selector="ShopButtonPressed:" destination="SoV-Ur-PLO" eventType="touchUpInside" id="ISn-ja-E2q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fkx-Tp-W7z"/>
@@ -177,6 +185,7 @@
         <image name="BukuBorderTop" width="1288" height="300"/>
         <image name="BukuHome" width="1638" height="2048"/>
         <image name="BukuLineup" width="621" height="960"/>
+        <image name="Shop" width="509" height="260"/>
         <image name="Tickets" width="509" height="260"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
