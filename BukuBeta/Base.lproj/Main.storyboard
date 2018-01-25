@@ -57,17 +57,25 @@
         <!--Item-->
         <scene sceneID="R19-Im-njK">
             <objects>
-                <viewController id="SoV-Ur-PLO" sceneMemberID="viewController">
+                <viewController id="SoV-Ur-PLO" customClass="WebPagesViewController" customModule="BukuBeta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MrA-tq-l0D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorderTop" translatesAutoresizingMaskIntoConstraints="NO" id="u1N-GB-RMU">
-                                <rect key="frame" x="-10" y="-7" width="395" height="112"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorder" translatesAutoresizingMaskIntoConstraints="NO" id="n5E-FG-sxR">
+                                <rect key="frame" x="-10" y="508" width="395" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorder" translatesAutoresizingMaskIntoConstraints="NO" id="n5E-FG-sxR">
-                                <rect key="frame" x="-10" y="508" width="395" height="117"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWN-xk-7L7">
+                                <rect key="frame" x="22" y="126" width="330" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Tickets"/>
+                                <connections>
+                                    <action selector="TicketButtonPressed:" destination="SoV-Ur-PLO" eventType="touchUpInside" id="Ldp-UH-xvS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BukuBorderTop" translatesAutoresizingMaskIntoConstraints="NO" id="u1N-GB-RMU">
+                                <rect key="frame" x="-10" y="-7" width="395.00000000000006" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -89,7 +97,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
+                                <rect key="frame" x="87" y="312" width="202" height="43"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -101,21 +109,48 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A1g-5B-YYP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BukuLineup" translatesAutoresizingMaskIntoConstraints="NO" id="hlh-Wc-bMS">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hlh-Wc-bMS" firstAttribute="top" secondItem="A1g-5B-YYP" secondAttribute="top" id="38u-f8-Crq"/>
+                                    <constraint firstAttribute="bottom" secondItem="hlh-Wc-bMS" secondAttribute="bottom" id="JzU-IW-aBO"/>
+                                    <constraint firstAttribute="trailing" secondItem="hlh-Wc-bMS" secondAttribute="trailing" id="Qbo-8D-Elw"/>
+                                    <constraint firstItem="hlh-Wc-bMS" firstAttribute="leading" secondItem="A1g-5B-YYP" secondAttribute="leading" id="ToZ-9o-rGI"/>
+                                    <constraint firstItem="hlh-Wc-bMS" firstAttribute="centerX" secondItem="A1g-5B-YYP" secondAttribute="centerX" id="dIe-Y3-kNt"/>
+                                    <constraint firstItem="hlh-Wc-bMS" firstAttribute="centerY" secondItem="A1g-5B-YYP" secondAttribute="centerY" id="qTV-Zx-u1F"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="r36-65-R0p"/>
+                                </connections>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
+                            <constraint firstItem="A1g-5B-YYP" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="Nkx-mK-kvn"/>
+                            <constraint firstItem="A1g-5B-YYP" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="Qcz-cJ-Xnk"/>
+                            <constraint firstItem="A1g-5B-YYP" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="bbu-nQ-IUL"/>
                             <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="A1g-5B-YYP" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="tVL-eb-nBh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="imageView" destination="hlh-Wc-bMS" id="hre-uf-7IN"/>
+                        <outlet property="scrollView" destination="A1g-5B-YYP" id="jdH-4o-tMO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -141,6 +176,8 @@
         <image name="BukuBorder" width="1288" height="300"/>
         <image name="BukuBorderTop" width="1288" height="300"/>
         <image name="BukuHome" width="1638" height="2048"/>
+        <image name="BukuLineup" width="621" height="960"/>
+        <image name="Tickets" width="509" height="260"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
