@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4168C725201A96E500EAFCF9 /* WebPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168C724201A96E500EAFCF9 /* WebPagesViewController.swift */; };
 		4168C727201C107E00EAFCF9 /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168C726201C107E00EAFCF9 /* ListTimelineViewController.swift */; };
+		4168C735201C188B00EAFCF9 /* TwitterKitResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4168C738201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4168C73C201C194000EAFCF9 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4168C730201C185200EAFCF9 /* TwitterKit.framework */; };
+		4168C73D201C196B00EAFCF9 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4168C72E201C184800EAFCF9 /* TwitterCore.framework */; };
 		4168CDE62016E5B7005E8FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE52016E5B7005E8FC9 /* AppDelegate.swift */; };
 		4168CDE82016E5B7005E8FC9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE72016E5B7005E8FC9 /* FirstViewController.swift */; };
 		4168CDEA2016E5B7005E8FC9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE92016E5B7005E8FC9 /* SecondViewController.swift */; };
@@ -36,9 +40,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4168C736201C188B00EAFCF9 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4168C735201C188B00EAFCF9 /* TwitterKitResources.bundle in Embed PlugIns */,
+				4168C738201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4168C724201A96E500EAFCF9 /* WebPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPagesViewController.swift; sourceTree = "<group>"; };
 		4168C726201C107E00EAFCF9 /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
+		4168C728201C182600EAFCF9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterKitResources.bundle"; sourceTree = "<group>"; };
+		4168C72B201C183900EAFCF9 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"; sourceTree = "<group>"; };
+		4168C72E201C184800EAFCF9 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = "Twitter-Kit-iOS/TwitterCore.framework"; sourceTree = "<group>"; };
+		4168C730201C185200EAFCF9 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = "Twitter-Kit-iOS/TwitterKit.framework"; sourceTree = "<group>"; };
+		4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterKitResources.bundle"; sourceTree = "<group>"; };
+		4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"; sourceTree = "<group>"; };
+		4168C73A201C192200EAFCF9 /* Twitter-Kit-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Twitter-Kit-iOS"; sourceTree = "<group>"; };
+		4168C73E201C4BB900EAFCF9 /* BukuBeta-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BukuBeta-Bridging-Header.h"; sourceTree = "<group>"; };
 		4168CDE22016E5B7005E8FC9 /* BukuBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BukuBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4168CDE52016E5B7005E8FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4168CDE72016E5B7005E8FC9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4168C73D201C196B00EAFCF9 /* TwitterCore.framework in Frameworks */,
+				4168C73C201C194000EAFCF9 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +109,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4168C72D201C184800EAFCF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4168C73A201C192200EAFCF9 /* Twitter-Kit-iOS */,
+				4168C730201C185200EAFCF9 /* TwitterKit.framework */,
+				4168C72E201C184800EAFCF9 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4168CDD92016E5B6005E8FC9 = {
 			isa = PBXGroup;
 			children = (
+				4168C73E201C4BB900EAFCF9 /* BukuBeta-Bridging-Header.h */,
+				4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */,
+				4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */,
+				4168C72B201C183900EAFCF9 /* TwitterShareExtensionUIResources.bundle */,
+				4168C728201C182600EAFCF9 /* TwitterKitResources.bundle */,
 				4168CDE42016E5B7005E8FC9 /* BukuBeta */,
 				4168CDFB2016E5B7005E8FC9 /* BukuBetaTests */,
 				4168CE062016E5B7005E8FC9 /* BukuBetaUITests */,
 				4168CDE32016E5B7005E8FC9 /* Products */,
+				4168C72D201C184800EAFCF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +189,7 @@
 				4168CDDE2016E5B7005E8FC9 /* Sources */,
 				4168CDDF2016E5B7005E8FC9 /* Frameworks */,
 				4168CDE02016E5B7005E8FC9 /* Resources */,
+				4168C736201C188B00EAFCF9 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -439,10 +485,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter-Kit-iOS",
+				);
 				INFOPLIST_FILE = BukuBeta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ARK.BukuBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BukuBeta-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,10 +504,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter-Kit-iOS",
+				);
 				INFOPLIST_FILE = BukuBeta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ARK.BukuBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BukuBeta-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

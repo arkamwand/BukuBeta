@@ -57,7 +57,7 @@
         <!--Item-->
         <scene sceneID="0Zj-z2-qjO">
             <objects>
-                <viewController id="Pot-fR-4Z6" sceneMemberID="viewController">
+                <viewController id="Pot-fR-4Z6" customClass="WebPagesViewController" customModule="BukuBeta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ksi-yr-jC8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
