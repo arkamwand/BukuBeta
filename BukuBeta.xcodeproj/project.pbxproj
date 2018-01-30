@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		4168C725201A96E500EAFCF9 /* WebPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168C724201A96E500EAFCF9 /* WebPagesViewController.swift */; };
 		4168C727201C107E00EAFCF9 /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168C726201C107E00EAFCF9 /* ListTimelineViewController.swift */; };
-		4168C735201C188B00EAFCF9 /* TwitterKitResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4168C738201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4168C73C201C194000EAFCF9 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4168C730201C185200EAFCF9 /* TwitterKit.framework */; };
-		4168C73D201C196B00EAFCF9 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4168C72E201C184800EAFCF9 /* TwitterCore.framework */; };
 		4168CDE62016E5B7005E8FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE52016E5B7005E8FC9 /* AppDelegate.swift */; };
 		4168CDE82016E5B7005E8FC9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE72016E5B7005E8FC9 /* FirstViewController.swift */; };
 		4168CDEA2016E5B7005E8FC9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168CDE92016E5B7005E8FC9 /* SecondViewController.swift */; };
@@ -41,14 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4168C736201C188B00EAFCF9 /* Embed PlugIns */ = {
+		41E49636201F244A0018F894 /* Embed PlugIns */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4168C735201C188B00EAFCF9 /* TwitterKitResources.bundle in Embed PlugIns */,
-				4168C738201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,14 +52,6 @@
 /* Begin PBXFileReference section */
 		4168C724201A96E500EAFCF9 /* WebPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPagesViewController.swift; sourceTree = "<group>"; };
 		4168C726201C107E00EAFCF9 /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTimelineViewController.swift; sourceTree = "<group>"; };
-		4168C728201C182600EAFCF9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterKitResources.bundle"; sourceTree = "<group>"; };
-		4168C72B201C183900EAFCF9 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"; sourceTree = "<group>"; };
-		4168C72E201C184800EAFCF9 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = "Twitter-Kit-iOS/TwitterCore.framework"; sourceTree = "<group>"; };
-		4168C730201C185200EAFCF9 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = "Twitter-Kit-iOS/TwitterKit.framework"; sourceTree = "<group>"; };
-		4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterKitResources.bundle"; sourceTree = "<group>"; };
-		4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = "Twitter-Kit-iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"; sourceTree = "<group>"; };
-		4168C73A201C192200EAFCF9 /* Twitter-Kit-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Twitter-Kit-iOS"; sourceTree = "<group>"; };
-		4168C73E201C4BB900EAFCF9 /* BukuBeta-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BukuBeta-Bridging-Header.h"; sourceTree = "<group>"; };
 		4168CDE22016E5B7005E8FC9 /* BukuBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BukuBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4168CDE52016E5B7005E8FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4168CDE72016E5B7005E8FC9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +66,13 @@
 		4168CE032016E5B7005E8FC9 /* BukuBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BukuBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4168CE072016E5B7005E8FC9 /* BukuBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BukuBetaUITests.swift; sourceTree = "<group>"; };
 		4168CE092016E5B7005E8FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E49633201F22F70018F894 /* BukuBeta-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BukuBeta-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FA81BF12FFE4565337C3936 /* Pods-BukuBetaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBetaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBetaUITests/Pods-BukuBetaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C420014A9F3C2056B6E92E4 /* Pods-BukuBeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBeta.release.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta.release.xcconfig"; sourceTree = "<group>"; };
+		6007E46CA6B15559694BAF98 /* Pods-BukuBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBeta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9DF4CAA8342F09146A02C2 /* Pods-BukuBetaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBetaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBetaTests/Pods-BukuBetaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D935C98F587B0B11BA376288 /* Pods-BukuBetaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBetaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBetaUITests/Pods-BukuBetaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA87FD642229237B1264428B /* Pods-BukuBetaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BukuBetaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BukuBetaTests/Pods-BukuBetaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4168C73D201C196B00EAFCF9 /* TwitterCore.framework in Frameworks */,
-				4168C73C201C194000EAFCF9 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,9 +103,6 @@
 		4168C72D201C184800EAFCF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4168C73A201C192200EAFCF9 /* Twitter-Kit-iOS */,
-				4168C730201C185200EAFCF9 /* TwitterKit.framework */,
-				4168C72E201C184800EAFCF9 /* TwitterCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,16 +110,13 @@
 		4168CDD92016E5B6005E8FC9 = {
 			isa = PBXGroup;
 			children = (
-				4168C73E201C4BB900EAFCF9 /* BukuBeta-Bridging-Header.h */,
-				4168C737201C18CD00EAFCF9 /* TwitterShareExtensionUIResources.bundle */,
-				4168C734201C188A00EAFCF9 /* TwitterKitResources.bundle */,
-				4168C72B201C183900EAFCF9 /* TwitterShareExtensionUIResources.bundle */,
-				4168C728201C182600EAFCF9 /* TwitterKitResources.bundle */,
+				41E49633201F22F70018F894 /* BukuBeta-Bridging-Header.h */,
 				4168CDE42016E5B7005E8FC9 /* BukuBeta */,
 				4168CDFB2016E5B7005E8FC9 /* BukuBetaTests */,
 				4168CE062016E5B7005E8FC9 /* BukuBetaUITests */,
 				4168CDE32016E5B7005E8FC9 /* Products */,
 				4168C72D201C184800EAFCF9 /* Frameworks */,
+				65187EE984CD7892DEBCC94F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +164,19 @@
 			path = BukuBetaUITests;
 			sourceTree = "<group>";
 		};
+		65187EE984CD7892DEBCC94F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6007E46CA6B15559694BAF98 /* Pods-BukuBeta.debug.xcconfig */,
+				5C420014A9F3C2056B6E92E4 /* Pods-BukuBeta.release.xcconfig */,
+				BF9DF4CAA8342F09146A02C2 /* Pods-BukuBetaTests.debug.xcconfig */,
+				EA87FD642229237B1264428B /* Pods-BukuBetaTests.release.xcconfig */,
+				4FA81BF12FFE4565337C3936 /* Pods-BukuBetaUITests.debug.xcconfig */,
+				D935C98F587B0B11BA376288 /* Pods-BukuBetaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,10 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4168CE0C2016E5B7005E8FC9 /* Build configuration list for PBXNativeTarget "BukuBeta" */;
 			buildPhases = (
+				397607D0B3A87ED788E873F2 /* [CP] Check Pods Manifest.lock */,
 				4168CDDE2016E5B7005E8FC9 /* Sources */,
 				4168CDDF2016E5B7005E8FC9 /* Frameworks */,
 				4168CDE02016E5B7005E8FC9 /* Resources */,
-				4168C736201C188B00EAFCF9 /* Embed PlugIns */,
+				0CD42D3A22C702EDA9972EA0 /* [CP] Embed Pods Frameworks */,
+				7A7CD037BC44BE4F7B317E96 /* [CP] Copy Pods Resources */,
+				41E49636201F244A0018F894 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -204,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4168CE0F2016E5B7005E8FC9 /* Build configuration list for PBXNativeTarget "BukuBetaTests" */;
 			buildPhases = (
+				866075C6FA80ECEEFFDE67B3 /* [CP] Check Pods Manifest.lock */,
 				4168CDF42016E5B7005E8FC9 /* Sources */,
 				4168CDF52016E5B7005E8FC9 /* Frameworks */,
 				4168CDF62016E5B7005E8FC9 /* Resources */,
+				6B300F72B2D00DD776ECA79E /* [CP] Embed Pods Frameworks */,
+				17A1F91069EA4299752347BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4168CE122016E5B7005E8FC9 /* Build configuration list for PBXNativeTarget "BukuBetaUITests" */;
 			buildPhases = (
+				62EAAEA41B09B33E022F4A97 /* [CP] Check Pods Manifest.lock */,
 				4168CDFF2016E5B7005E8FC9 /* Sources */,
 				4168CE002016E5B7005E8FC9 /* Frameworks */,
 				4168CE012016E5B7005E8FC9 /* Resources */,
+				A7F6A8A131CCAA4EA4425443 /* [CP] Embed Pods Frameworks */,
+				FDD31C27C23214C11C42DC52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +315,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD42D3A22C702EDA9972EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17A1F91069EA4299752347BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBetaTests/Pods-BukuBetaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397607D0B3A87ED788E873F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BukuBeta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EAAEA41B09B33E022F4A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BukuBetaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B300F72B2D00DD776ECA79E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBetaTests/Pods-BukuBetaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7CD037BC44BE4F7B317E96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBeta/Pods-BukuBeta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866075C6FA80ECEEFFDE67B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BukuBetaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F6A8A131CCAA4EA4425443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBetaUITests/Pods-BukuBetaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD31C27C23214C11C42DC52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BukuBetaUITests/Pods-BukuBetaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4168CDDE2016E5B7005E8FC9 /* Sources */ = {
@@ -482,6 +646,7 @@
 		};
 		4168CE0D2016E5B7005E8FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6007E46CA6B15559694BAF98 /* Pods-BukuBeta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ARK.BukuBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BukuBeta-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,6 +667,7 @@
 		};
 		4168CE0E2016E5B7005E8FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C420014A9F3C2056B6E92E4 /* Pods-BukuBeta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +680,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ARK.BukuBeta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "BukuBeta-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -520,6 +688,7 @@
 		};
 		4168CE102016E5B7005E8FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9DF4CAA8342F09146A02C2 /* Pods-BukuBetaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +705,7 @@
 		};
 		4168CE112016E5B7005E8FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA87FD642229237B1264428B /* Pods-BukuBetaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +722,7 @@
 		};
 		4168CE132016E5B7005E8FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA81BF12FFE4565337C3936 /* Pods-BukuBetaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +738,7 @@
 		};
 		4168CE142016E5B7005E8FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D935C98F587B0B11BA376288 /* Pods-BukuBetaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
