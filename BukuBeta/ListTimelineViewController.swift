@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import TwitterKit
 
-class ListTimelineViewController: UIViewController {
+class ListTimelineViewController: TWTRTimelineViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+    let client = TWTRAPIClient()
+    let dataSource = TWTRUserTimelineDataSource(screenName: "thebukuproject", apiClient: client)
         // Do any additional setup after loading the view.
     }
 
